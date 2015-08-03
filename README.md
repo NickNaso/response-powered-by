@@ -11,7 +11,10 @@ In your package.json add the following item:
 
 response-powered-by: "version"
 
-then digit **npm install**
+then digit 
+```console
+npm install
+```
 
 **Example**:
 
@@ -22,8 +25,9 @@ response-powered-by: "1.0.0" for the version 1.0.0
 **OR**
 
 launch this command:
-
-**npm  response-powered-by --save**
+```console
+npm  response-powered-by --save
+```
 
 #### Use
 ```javascript
