@@ -37,4 +37,4 @@ var app = express();
 app.use(responsePoweredBy("Your cutom string for X-Powered-By header"));
 
 ```
-This middleware sets the X-Powered-By header to a value passed in input, but if that value is not a string or it's **undefined** or **null** this header will be **removed*** from the response.
+This middleware sets the X-Powered-By header to a value passed in input, but if that value is not a string or it's **undefined** or **null** this header will be **removed** from the response.
