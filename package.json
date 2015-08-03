@@ -1,0 +1,43 @@
+{
+  "name": "response-powered-by",
+  "description": "Middleware to set the X-Powered-By header returned by Express",
+  "version": "1.0.0",
+  "author": "Nacios Technologies <info@nacios.it>",
+  "contributors": [
+    "Antonio D'Angelo <tonydangelo123@gmail.com>",
+    "Mauro Brasiliano <m.brasiliano@nacios.it>",
+    "Nicola Del Gobbo <n.delgobbo@nacios.it>",
+    "Vincenzo Villani <v.villani@nacios.it>"
+  ],
+  "licenses": [
+    {
+      "type": "Apache License Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickNaso/response-powered-by.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickNaso/response-powered-by/issues"
+  },
+  "homepage": "http://www.nacios.it/",
+  "keywords": [
+    "express",
+    "powered-by",
+    "header",
+    "middleware",
+    "connect",
+    "x-powered-by"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "libs/"
+  ]
+}
