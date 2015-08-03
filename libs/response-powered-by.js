@@ -14,7 +14,7 @@
 /**
  * Response powered by:
  * Add the `X-Powered-By` header on the response
- * @params {String} The value for the X-Powered-By header
+ * @params {String} The value for the `X-Powered-By` header
  * @return {Function}
  * @api public
  */
