@@ -24,3 +24,17 @@ response-powered-by: "1.0.0" for the version 1.0.0
 launch this command:
 
 **npm  response-powered-by --save**
+
+#### Use
+```javascript
+var responsePoweredBy = require('response-powered-by');
+
+//Import some other required modules
+var express = require('express');
+var app = express();
+//Some other configuration for the express app
+
+app.use(responsePoweredBy("Your cutom string for X-Powered-By header"));
+
+```
+This middleware sets the X-Powered-By header to a value passed in input, but if that value is not a string or it's **undefined** or **null** this header will be **removed*** from the response.
