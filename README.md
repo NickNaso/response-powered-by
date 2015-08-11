@@ -26,7 +26,7 @@ npm install
 
 launch this command:
 ```console
-npm  response-powered-by --save
+npm install response-powered-by --save
 ```
 
 #### Use
