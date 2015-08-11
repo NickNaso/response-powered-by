@@ -1,7 +1,7 @@
 {
   "name": "response-powered-by",
   "description": "Middleware to set the X-Powered-By header returned by Express",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nacios Technologies <info@nacios.it>",
   "contributors": [
     "Antonio D'Angelo <tonydangelo123@gmail.com>",
