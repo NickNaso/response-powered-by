@@ -1,28 +1,11 @@
 {
   "name": "response-powered-by",
   "description": "Middleware to set the X-Powered-By header returned by Express",
-  "version": "1.0.1",
-  "author": "Nacios Technologies <info@nacios.it>",
+  "version": "1.0.3",
+  "author": "Nicola Del Gobbo <nicoladelgobbo@gmail.com>",
   "contributors": [
-    "Antonio D'Angelo <tonydangelo123@gmail.com>",
-    "Mauro Brasiliano <m.brasiliano@nacios.it>",
-    "Nicola Del Gobbo <n.delgobbo@nacios.it>",
-    "Vincenzo Villani <v.villani@nacios.it>"
+    "Antonio D'Angelo <tonydangelo123@gmail.com>"
   ],
-  "licenses": [
-    {
-      "type": "Apache License Version 2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NickNaso/response-powered-by.git"
-  },
-  "bugs": {
-    "url": "https://github.com/NickNaso/response-powered-by/issues"
-  },
-  "homepage": "http://www.nacios.it/",
   "keywords": [
     "express",
     "powered-by",
@@ -31,13 +14,31 @@
     "connect",
     "x-powered-by"
   ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=test/jasmine.json"
+  },
   "engines": {
     "node": ">= 0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickNaso/response-powered-by.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickNaso/response-powered-by/issues"
+  },
+  "homepage": "http://www.nacios.it/",
+  "devDependencies": {
+    "express": "^4.13.4",
+    "jasmine": "^2.4.1",
+    "supertest": "^1.2.0"
   },
   "files": [
     "LICENSE",
     "README.md",
+    "CHANGELOG.md",
     "index.js",
-    "libs/"
+    "lib/"
   ]
 }
