@@ -1,5 +1,5 @@
 
-# Changelog for **response-powered-by**
+# Changelog
 
 1.0.3 / 2016-05-08
 ==================
