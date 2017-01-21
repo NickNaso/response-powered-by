@@ -19,6 +19,7 @@
 
 'use strict';
 
+/** */
 var express = require('express');
 var request = require('supertest');
 var responsePoweredBy = require('../');
@@ -26,19 +27,15 @@ var responsePoweredBy = require('../');
 describe("Test response-powered-by() middleware", function(){
 
   it("Should export function", function(){
-
 		  expect(typeof responsePoweredBy).toEqual('function');
-
 	});
 
   it("Should remove `X-Powered-By` header set by Express", function(done){
-
     var app = express()
       .use(responsePoweredBy())
       .get("/", function(req, res){
         res.send("Response Powered By");
       });
-
     request(app)
       .get("/")
       .expect(200)
@@ -50,19 +47,15 @@ describe("Test response-powered-by() middleware", function(){
         done();
       }
     });
-
   });
 
   it("Should remove and set `X-Powered-By` header set by Express", function(done){
-
     var xPoweredBy = "@NickNaso";
-
     var app = express()
       .use(responsePoweredBy(xPoweredBy))
       .get("/", function(req, res){
         res.send("Response Powered By");
       });
-
     request(app)
       .get("/")
       .expect(200)
@@ -74,7 +67,6 @@ describe("Test response-powered-by() middleware", function(){
         done();
       }
     });
-
   });
 
 });
